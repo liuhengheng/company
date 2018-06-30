@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">company</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_lanya">蓝牙</string>
+    <string name="title_wifi">wifi</string>
+    <string name="title_saoyisao">扫一扫</string>
+    <string name="company_description">创客天地（北京）科技发展有限公司是一家专注高端技术成果转化和科技创新教育的专业机构，在美国和国内分别拥有研究中心和实验室，由台中研究院等100余名中国顶尖科学家组成的技术研究团队。历时五年研发，形成了一套完整的标准化青少年儿童科技创新教育课程体系，旨在通过以人工智能为核心的跨学科全面思维训练，提高青少年儿童的科学素养、创新思维和科技实践能力。</string>
+    <string name="lanya">蓝牙</string>
+    <string name="wifi">WIFI</string>
+    <string name="saoyisao">扫一扫</string>
+
+</resources>

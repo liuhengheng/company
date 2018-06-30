@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@mipmap/bg_03"
+    tools:context=".activity.BlueToothDetailActivity">
+
+
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/ib_hand"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:src="@mipmap/fx_07" />
+
+        <ImageView
+            android:id="@+id/ib_top"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_above="@+id/ib_hand"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/fx_03" />
+
+        <ImageView
+            android:id="@+id/ib_left"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/ib_hand"
+            android:src="@mipmap/fx_10" />
+
+
+        <ImageView
+            android:id="@+id/ib_right"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ib_hand"
+            android:src="@mipmap/fx_13" />
+
+
+        <ImageView
+            android:id="@+id/ib_bottom"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/ib_hand"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/fx_19" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ib_a"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/wifia" />
+
+            <ImageView
+                android:id="@+id/ib_b"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/wifib" />
+
+            <ImageView
+                android:id="@+id/ib_c"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/wific" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ib_d"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_weight="1"
+                android:src="@mipmap/wifid" />
+
+            <ImageView
+                android:id="@+id/ib_e"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_weight="1"
+                android:src="@mipmap/wifie" />
+
+            <ImageView
+                android:id="@+id/ib_f"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_weight="1"
+                android:src="@mipmap/wifif" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

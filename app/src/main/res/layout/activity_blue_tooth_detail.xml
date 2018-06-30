@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.BlueToothDetailActivity">
+
+
+
+        <RelativeLayout
+            android:layout_alignParentLeft="true"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true">
+
+            <ImageView
+                android:id="@+id/ib_hand"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"
+                android:layout_marginRight="80dp"
+                android:src="@mipmap/fx_07" />
+
+            <ImageView
+                android:id="@+id/ib_top"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_above="@+id/ib_hand"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/fx_03" />
+
+            <ImageView
+                android:id="@+id/ib_left"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/ib_hand"
+                android:src="@mipmap/fx_10" />
+
+
+            <ImageView
+                android:id="@+id/ib_right"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/ib_hand"
+                android:src="@mipmap/fx_13" />
+
+
+            <ImageView
+                android:id="@+id/ib_bottom"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/ib_hand"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/fx_19" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_alignParentRight="true"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ib_a"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@mipmap/button_31" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="12dp"
+                android:layout_marginStart="45dp"
+                android:src="@mipmap/button_38" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="62dp"
+                android:layout_marginStart="37dp"
+                android:src="@mipmap/button_22" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/imageView4"
+                android:layout_toEndOf="@+id/imageView2"
+                android:src="@mipmap/button_13" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="69dp"
+                android:layout_marginTop="44dp"
+                android:src="@mipmap/button_07" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignEnd="@+id/ib_a"
+                android:layout_alignTop="@+id/imageView4"
+                android:src="@mipmap/button_03" />
+
+
+        </RelativeLayout>
+
+
+
+
+</RelativeLayout>

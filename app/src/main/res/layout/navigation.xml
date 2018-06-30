@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/ll_lanya"
+        style="@style/navitation_item_linearlayout">
+
+        <TextView
+            android:id="@+id/tv_lanya"
+            style="@style/navigation_item_textview"
+            android:text="@string/lanya" />
+    </LinearLayout>
+
+    <View style="@style/view_line" />
+
+    <LinearLayout
+        android:id="@+id/ll_wifi"
+        style="@style/navitation_item_linearlayout">
+
+        <TextView
+            android:id="@+id/tv_wifi"
+            style="@style/navigation_item_textview"
+            android:text="@string/wifi" />
+    </LinearLayout>
+    <View style="@style/view_line" />
+    <LinearLayout
+        android:id="@+id/ll_saoyiysao"
+        style="@style/navitation_item_linearlayout">
+
+
+        <TextView
+            android:id="@+id/ll_saoyisao"
+            style="@style/navigation_item_textview"
+            android:text="@string/saoyisao" />
+    </LinearLayout>
+
+</LinearLayout>
